@@ -1,0 +1,5 @@
+# dsh-ralph-command patch: registers the /ralph slash command host half.
+# `name` MUST equal package.json's name.
+- insert:
+    - id: dsh-ralph-command
+      name: dsh-ralph-command

@@ -1,0 +1,25 @@
+{
+  "name": "dsh-ralph-command",
+  "icon": "./assets/icon.svg",
+  "version": "0.1.0",
+  "description": "A native /ralph slash command for DeepSeek Harness: turns short input into an explicit Ralph-loop request the model is allowed to act on, so the officially shipped tool-ralph (off by default, human-request-gated) can be driven with one line.",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "slash-command",
+    "ralph",
+    "ralph-loop",
+    "fresh-agent"
+  ],
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
