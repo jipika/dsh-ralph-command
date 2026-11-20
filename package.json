@@ -21,5 +21,10 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
   }
 }
